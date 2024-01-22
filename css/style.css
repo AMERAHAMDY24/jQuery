@@ -1,0 +1,140 @@
+#Contact{
+    height: 100vh;
+}
+header{
+    background-image: url("../images/events-heavenly-header.jpg");
+    background-position: center center;
+    background-size: cover;
+    height: 100vh;
+}
+.overlay{
+    background-color: rgba(214, 46, 51 , 0.6);
+    height: 100%;
+    width: 100%;
+}
+#h{
+    padding-top: 200px;
+}
+span,i{
+    cursor: pointer;
+    color: white !important;
+}
+
+.sideBar{
+    /* background-color: brown; */
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    z-index: 999;
+    display: flex;
+    width: 380px;
+}
+a{
+    transition: color 1s;
+    -webkit-transition: color 1s;
+    -moz-transition: color 1s;
+    -ms-transition: color 1s;
+    -o-transition: color 1s;
+}
+.innnerSideBar a:hover
+{
+    color: brown !important;
+}
+#closeIcon:hover{
+    color: brown !important;
+}
+.sideIcon {
+    align-self: flex-start;
+margin-top: 300px;
+margin-left: 20px;
+}
+#closeIcon{
+    padding-left: 150px;
+    transition: color 1s;
+    -webkit-transition: color 1s;
+    -moz-transition: color 1s;
+    -ms-transition: color 1s;
+    -o-transition: color 1s;
+}
+
+
+/* section2 */
+.contents
+{
+   background-color:  rgba(214, 46, 51 , 0.6)!important;
+   margin-top: 100px;
+   margin-bottom: 100px;
+}
+.contents p{
+    background-color: #ccc;
+    color: black;
+    display: none;
+}
+.contents h3
+{
+    cursor: pointer;
+}
+
+/* section3 */
+
+.counter{
+background-image: url("../images/invitation-2508607__340.jpg");
+background-position: center center;
+background-size: 100% 100%;
+background-repeat: no-repeat;
+width: 100%;
+height: 330px;
+}
+/* section4 */
+.spacialSpan{
+    padding-left: 100px !important;
+}
+.emailColor{
+    color: brown;
+}
+.space3{
+    padding-left: 180px;
+}
+.space1{
+    padding-left: 100px;
+}
+.space2{padding-left: 180px;}
+.icon{
+    border: solid 2px gray;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -o-transition: all 0.5s;
+}
+.icon:hover
+{
+    background-color: #D62E33;   
+     border: solid 2px transparent;
+
+
+}
+.icon:hover i{
+    color: white !important;
+}
+.spanColor{
+    color:  #D62E33
+ !important;
+}
+button{
+    color: white !important;
+    background-color: #D62E33!important;
+    border-radius: 0px !important;
+    -webkit-border-radius: 0px !important;
+    -moz-border-radius: 0px !important;
+    -ms-border-radius: 0px !important;
+    -o-border-radius: 0px !important;
+}
+
+.item{
+margin-top: 100px;
+
+    width: 280px;
+    height: 150px;
+    border: solid 2px white;
+}
