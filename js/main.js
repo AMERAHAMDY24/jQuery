@@ -99,4 +99,13 @@ decMinutes--
 
 
 },100)
-//input
+//messageCharacters
+$("textarea").keyup(function(){
+let len=$(this).val().length;
+console.log(len);
+$(".spanColor").text(
+    100-len <= 0 ? "your available characters finished" : 100- len
+     
+)
+
+})
